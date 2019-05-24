@@ -2115,9 +2115,9 @@ input, textarea, input[type="submit"]:focus {
 
 @media screen and (min-width: 790px) {
     .site-info-wrapper .site-info .copy_text {
-        float: left;
+        float: center;
         margin-bottom: 0px;
-        text-align: left;
+        text-align: center;
     }
 }
 
