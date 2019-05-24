@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="Renaming favicon">
+    <list default="true" id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="Fixed mobile menu&#10;Adding wordpress files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="1116" column="21" lean-forward="true" selection-start-line="1116" selection-start-column="21" selection-end-line="1116" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="1124" column="18" lean-forward="true" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="449" column="19" lean-forward="true" selection-start-line="449" selection-start-column="19" selection-end-line="449" selection-end-column="19" />
+            <state relative-caret-position="466">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#31#37#0" expanded="true" />
@@ -51,7 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font-awesome.min</find>
       <find>http://concrete-shells.com/wp-admin/admin-ajax.ph</find>
       <find>Button-Dark.</find>
       <find>'wp-content</find>
@@ -81,6 +78,7 @@
       <find>&lt;style id=&quot;wp-custom-css&quot; type=&quot;text/css&quot;&gt;.header-right-wrap a {</find>
       <find>.header-transparent .wpc-menu.wpc-menu-mobile &gt; li &gt; a {</find>
       <find>#fff !important</find>
+      <find>jquery</find>
     </findStrings>
     <replaceStrings>
       <replace>'http://concrete-shells.com/</replace>
@@ -102,8 +100,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/construction/style3c21.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -186,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558645290466</updated>
       <workItem from="1558645291804" duration="8921000" />
-      <workItem from="1558663795275" duration="2027000" />
+      <workItem from="1558663795275" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="Adding logo homepage">
       <created>1558647394298</created>
@@ -223,11 +221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558662485950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed mobile menu&#10;Adding wordpress files">
+      <created>1558666126476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558666126476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10948000" />
+    <option name="totallyTimeSpent" value="11309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -263,7 +268,8 @@
     <MESSAGE value="Adding favicon" />
     <MESSAGE value="Adding css and js&#10;Refactoring directory structs" />
     <MESSAGE value="Renaming favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming favicon" />
+    <MESSAGE value="Fixed mobile menu&#10;Adding wordpress files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mobile menu&#10;Adding wordpress files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/jquery-smooth-scroll/css/style3c21.css">
@@ -292,10 +298,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="1124" column="18" lean-forward="true" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="449" column="19" lean-forward="true" selection-start-line="449" selection-start-column="19" selection-end-line="449" selection-end-column="19" />
+        <state relative-caret-position="466">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#31#37#0" expanded="true" />
@@ -307,13 +320,6 @@
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1116" column="21" lean-forward="true" selection-start-line="1116" selection-start-column="21" selection-end-line="1116" selection-end-column="21" />
         </state>
       </provider>
     </entry>
