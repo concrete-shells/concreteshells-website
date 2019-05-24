@@ -1,44 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="">
+    <list default="true" id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="Adding favicon">
+      <change afterPath="$PROJECT_DIR$/css/animate.min972f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/buttons.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/dashicons.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.minae82.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/forms.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/front.minb1df.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/js_composer.min972f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/js_composer_tta.min972f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/l10n.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/lg-transitions3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/lightgallery3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/login.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.min972f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/prettyPhoto.min972f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/settings03e2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.min3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles3c21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/135xNxlogo.png.pagespeed.ic.da4-Yys2Hf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Web-Logo-Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/address-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/alarm-clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/application-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/asterisk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/auction-hammer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balloon-buzz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balloon-facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balloon-twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balloon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/battery-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/binocular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-powerpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blue-document-word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bookmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/camcorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/chart-pie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contentPatternBottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contentPatternLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contentPatternRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contentPatternTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/default_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/exclamation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/flickr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/plus-shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprite_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprite_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprite_x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprite_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/toggle_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/toggle_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/w-logo-blue7a53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xclose.png.pagespeed.ic.Zei43eohAv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xcorner-logo.png.pagespeed.ic.6TukXqDtLV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/comment-reply.min3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed012d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed0135.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed1a13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed3513.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed5c23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embed5f83.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embedd425.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embedd819.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/embede75b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/front.minb1df.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/frontend.min7ef2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/froogaloop2.min3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/grandwplight3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/imagesloaded.pkgd.min3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-migrate.min330a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.mousewheel.min3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.prettyPhoto.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.themepunch.revolution.min03e2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.themepunch.tools.min03e2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jqueryb8ff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/js_composer_front.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-autoplay3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-fullscreen3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-hash3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-pager3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-share3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-thumbnail3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-video3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lg-zoom3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/libs3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lightgallery3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/masonry.pkgd.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modernizr.min61da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.min3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/theme3c21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/underscore.min4511.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vc-accordion.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vc-tabs.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vc-tta-autoplay.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vc_grid.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/waypoints.min972f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/wp-embed.min3c21.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/architect/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/architect/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/builder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/builder/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/developer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/developer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home-owner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/home-owner/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/investor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/investor/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-concrete/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-concrete/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/owl.carousel.min972f.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/owl.carousel.min972f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/construction/style3c21.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/board-formed-concrete-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/board-formed-concrete-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/AM-HighTech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/AM-HighTech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Arch-Thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Arch-Thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/BG.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/BG4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/BG4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/BG5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/BG5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/BW-As-Seen-In-300x113.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BW-As-Seen-In-300x113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Builder-Thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Builder-Thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/CP-As-Seen-In-300x113.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/CP-As-Seen-In-300x113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Dev-Thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Dev-Thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Don-Erika.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Don-Erika.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/EE-HighTech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/EE-HighTech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Eichler_2story_front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Eichler_2story_front.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Investor-Thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Investor-Thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Los-Altos-Hills_Newbridge-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Los-Altos-Hills_Newbridge-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/MF-HighTech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/MF-HighTech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/NL-HighTech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/NL-HighTech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/Owner-Thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Owner-Thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/RT-As-Seen-In-300x113.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/RT-As-Seen-In-300x113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/04/ST-HighTech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ST-HighTech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/Bid-Button.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Bid-Button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/Button-Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Button-Dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/Button-Light.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Button-Light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/Shell-Options.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Shell-Options.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,9 +147,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="1593" column="61" selection-start-line="1593" selection-start-column="61" selection-end-line="1593" selection-end-column="61" />
+            <state relative-caret-position="146">
+              <caret line="1576" column="52" lean-forward="true" selection-start-line="1576" selection-start-column="52" selection-end-line="1576" selection-end-column="52" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#31#37#0" expanded="true" />
                 <element signature="e#37#43#0" expanded="true" />
                 <element signature="e#43#49#0" expanded="true" />
@@ -66,6 +160,20 @@
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style3c21.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/embed5c23.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -83,12 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo.png</find>
-      <find>site-info-wrapper</find>
-      <find>site-info-wrapp</find>
-      <find>.css</find>
-      <find>style3c21</find>
-      <find>site-info</find>
       <find>all rights re</find>
       <find>copy_text</find>
       <find>frooga</find>
@@ -103,9 +205,34 @@
       <find>admin-aja</find>
       <find>font-awesome.min</find>
       <find>http://concrete-shells.com/wp-admin/admin-ajax.ph</find>
+      <find>Button-Dark.</find>
+      <find>'wp-content</find>
+      <find>'wp-includes</find>
+      <find>2019/</find>
+      <find>http://concrete-shells.com/images/Quote-Logo.jpg</find>
+      <find>Quote-Logo.jpg</find>
+      <find>emoji</find>
+      <find>11.</find>
+      <find>11.2.0</find>
+      <find>wp-emoji-rel</find>
+      <find>quote-logo</find>
+      <find>BG5.jp</find>
+      <find>style</find>
+      <find>concrete-shells.com/</find>
+      <find>http</find>
+      <find>http://concrete-shells.com/</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'http://concrete-shells.com/</replace>
+      <replace>'http://concrete-shells.com</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chad" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -125,7 +252,9 @@
     <option name="width" value="3864" />
     <option name="height" value="2124" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -139,30 +268,6 @@
               <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="construction" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -172,11 +277,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My Web Sites\Concrete Shells Website\js" />
+      <recent name="C:\My Web Sites\Concrete Shells Website\css" />
+      <recent name="C:\My Web Sites\Concrete Shells Website\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My Web Sites\Concrete Shells Website\css" />
       <recent name="C:\My Web Sites\Concrete Shells Website\images" />
@@ -204,7 +314,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558645290466</updated>
-      <workItem from="1558645291804" duration="4119000" />
+      <workItem from="1558645291804" duration="8122000" />
     </task>
     <task id="LOCAL-00001" summary="Adding logo homepage">
       <created>1558647394298</created>
@@ -213,11 +323,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558647394298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moving images and css directories&#10;Cleaning up chrome console errors">
+      <created>1558658440953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558658440953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding favicon">
+      <created>1558658641452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558658641452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4119000" />
+    <option name="totallyTimeSpent" value="8122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -249,7 +373,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Adding logo homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding logo homepage" />
+    <MESSAGE value="Moving images and css directories&#10;Cleaning up chrome console errors" />
+    <MESSAGE value="Adding favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding favicon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/jquery-smooth-scroll/css/style3c21.css">
@@ -272,11 +398,25 @@
     <entry file="file://$PROJECT_DIR$/images/AM-HighTech.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/Favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style3c21.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/embed5c23.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="1593" column="61" selection-start-line="1593" selection-start-column="61" selection-end-line="1593" selection-end-column="61" />
+        <state relative-caret-position="146">
+          <caret line="1576" column="52" lean-forward="true" selection-start-line="1576" selection-start-column="52" selection-end-line="1576" selection-end-column="52" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#31#37#0" expanded="true" />
             <element signature="e#37#43#0" expanded="true" />
             <element signature="e#43#49#0" expanded="true" />
