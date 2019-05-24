@@ -37,6 +37,10 @@ body {
     padding: 0;
 }
 
+.darken {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/ShellOpts.jpg);
+}
+
 article,
 aside,
 details,
@@ -4071,7 +4075,7 @@ img.wp-smiley {
 
 .btn-primary {
     background: #fab702;
-    color: #FFFFFF !important;
+    color: #000 !important;
 }
 
 .btn-secondary {

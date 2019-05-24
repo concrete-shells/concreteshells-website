@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="Fixed mobile menu&#10;Adding wordpress files">
+    <list default="true" id="0eca4a33-17c8-4b9a-8762-936a6e5e288b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/architect/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/architect/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/builder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/builder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/developer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/developer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/home-owner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/home-owner/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/investor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/investor/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why-concrete/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-concrete/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/&amp;reauth=1.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/&amp;reauth=1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/video-play.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/video-play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/vimeo-play.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/vimeo-play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/youtube-play.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/responsive-lightbox-popup/resources/assets/css/img/youtube-play.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +30,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="1124" column="18" lean-forward="true" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
+            <state relative-caret-position="432">
+              <caret line="1540" column="44" selection-start-line="1540" selection-start-column="44" selection-end-line="1540" selection-end-column="144" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#31#37#0" expanded="true" />
                 <element signature="e#37#43#0" expanded="true" />
                 <element signature="e#43#49#0" expanded="true" />
@@ -45,63 +52,96 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-us/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="753" column="166" lean-forward="true" selection-start-line="753" selection-start-column="110" selection-end-line="753" selection-end-column="166" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="739" lean-forward="true" selection-start-line="739" selection-end-line="739" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="40" column="105" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://concrete-shells.com/wp-admin/admin-ajax.ph</find>
-      <find>Button-Dark.</find>
-      <find>'wp-content</find>
-      <find>'wp-includes</find>
-      <find>2019/</find>
-      <find>http://concrete-shells.com/images/Quote-Logo.jpg</find>
-      <find>Quote-Logo.jpg</find>
-      <find>emoji</find>
-      <find>11.</find>
-      <find>11.2.0</find>
-      <find>wp-emoji-rel</find>
-      <find>quote-logo</find>
-      <find>BG5.jp</find>
-      <find>style</find>
-      <find>concrete-shells.com/</find>
-      <find>http</find>
-      <find>http://concrete-shells.com/</find>
-      <find>wp-admin</find>
-      <find>slideanim</find>
-      <find>slideanims</find>
-      <find>href=#</find>
-      <find>header-right-wrap</find>
-      <find>10px</find>
-      <find>b8ff</find>
-      <find>&gt; a</find>
-      <find>.wpc-menu.wpc-menu-mobile li.current-menu-item &gt; a {</find>
-      <find>&lt;style id=&quot;wp-custom-css&quot; type=&quot;text/css&quot;&gt;.header-right-wrap a {</find>
-      <find>.header-transparent .wpc-menu.wpc-menu-mobile &gt; li &gt; a {</find>
-      <find>#fff !important</find>
-      <find>jquery</find>
+      <find>info@</find>
+      <find>.btn-primar</find>
+      <find>get</find>
+      <find>GET A QUO</find>
+      <find>btn btn-primary</find>
+      <find>get a quo</find>
+      <find>tp-mask-wrap</find>
+      <find>[{&quot;delay&quot;:0,&quot;speed&quot;:100,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]</find>
+      <find>our services</find>
+      <find>our servics</find>
+      <find>get a quot</find>
+      <find>get a quote</find>
+      <find>start your bi</find>
+      <find>hustle</find>
+      <find>button-dark</find>
+      <find>btn-dark</find>
+      <find>button-light</find>
+      <find>slide-4-layer-3</find>
+      <find>shellopts</find>
+      <find>work-in</find>
+      <find>-827</find>
+      <find>Concrete Shells | All Rights Reserved</find>
+      <find>erika@concrete-shells.com</find>
+      <find>Eichler_2story_front</find>
+      <find>rgb</find>
+      <find>.6</find>
+      <find>talking about in</find>
+      <find>newbrd</find>
     </findStrings>
     <replaceStrings>
-      <replace>'http://concrete-shells.com/</replace>
-      <replace>'http://concrete-shells.com</replace>
+      <replace>Concrete Shells 2019 | All Rights Reserved</replace>
+      <replace>info@concrete-shells.com</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Chad" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/construction/style3c21.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/contact-us/index.html" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
       </list>
     </option>
   </component>
@@ -111,15 +151,11 @@
     <option name="width" value="3864" />
     <option name="height" value="2124" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,39 +163,17 @@
               <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Concrete Shells Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Concrete Shells Website" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My Web Sites\Concrete Shells Website\js" />
-      <recent name="C:\My Web Sites\Concrete Shells Website\css" />
-      <recent name="C:\My Web Sites\Concrete Shells Website\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\My Web Sites\Concrete Shells Website\css" />
-      <recent name="C:\My Web Sites\Concrete Shells Website\images" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,69 +192,36 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f034d18-1f2e-4350-88c6-7db7e2d0141f" name="Default Changelist" comment="" />
-      <created>1558645290466</created>
+      <changelist id="0eca4a33-17c8-4b9a-8762-936a6e5e288b" name="Default Changelist" comment="" />
+      <created>1558717771357</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558645290466</updated>
-      <workItem from="1558645291804" duration="8921000" />
-      <workItem from="1558663795275" duration="2388000" />
+      <updated>1558717771357</updated>
+      <workItem from="1558717772507" duration="3892000" />
     </task>
-    <task id="LOCAL-00001" summary="Adding logo homepage">
-      <created>1558647394298</created>
+    <task id="LOCAL-00001" summary="Adding gitignore">
+      <created>1558719024266</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1558647394298</updated>
+      <updated>1558719024266</updated>
     </task>
-    <task id="LOCAL-00002" summary="Moving images and css directories&#10;Cleaning up chrome console errors">
-      <created>1558658440953</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1558658440953</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Adding favicon">
-      <created>1558658641452</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1558658641452</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Adding css and js&#10;Refactoring directory structs">
-      <created>1558662361085</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1558662361085</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Renaming favicon">
-      <created>1558662485950</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1558662485950</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fixed mobile menu&#10;Adding wordpress files">
-      <created>1558666126476</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1558666126476</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11309000" />
+    <option name="totallyTimeSpent" value="3892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2104019" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1536643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.2751364" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -248,10 +229,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -263,54 +240,39 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Adding logo homepage" />
-    <MESSAGE value="Moving images and css directories&#10;Cleaning up chrome console errors" />
-    <MESSAGE value="Adding favicon" />
-    <MESSAGE value="Adding css and js&#10;Refactoring directory structs" />
-    <MESSAGE value="Renaming favicon" />
-    <MESSAGE value="Fixed mobile menu&#10;Adding wordpress files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed mobile menu&#10;Adding wordpress files" />
+    <MESSAGE value="Adding gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding gitignore" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/jquery-smooth-scroll/css/style3c21.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/ST-HighTech.png">
+    <entry file="file://$PROJECT_DIR$/images/Button-Light.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/AM-HighTech.png">
+    <entry file="file://$PROJECT_DIR$/images/Button-Dark.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style3c21.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/embed5c23.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1124" column="18" lean-forward="true" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
+        <state relative-caret-position="586">
+          <caret line="40" column="105" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        <state relative-caret-position="432">
+          <caret line="1540" column="44" selection-start-line="1540" selection-start-column="44" selection-end-line="1540" selection-end-column="144" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#article#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#31#37#0" expanded="true" />
             <element signature="e#37#43#0" expanded="true" />
             <element signature="e#43#49#0" expanded="true" />
@@ -318,6 +280,27 @@
             <element signature="e#10#16#0" expanded="true" />
             <element signature="e#16#22#0" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="753" column="166" lean-forward="true" selection-start-line="753" selection-start-column="110" selection-end-line="753" selection-end-column="166" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="739" lean-forward="true" selection-start-line="739" selection-end-line="739" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#p#0;n#!!top" expanded="true" />
           </folding>
         </state>
