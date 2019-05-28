@@ -520,7 +520,7 @@ big {
 }
 
 ul, ol {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 ul {
@@ -2311,7 +2311,8 @@ input, textarea, input[type="submit"]:focus {
 }
 
 .entry-content ul, .entry-content ol {
-    margin-left: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .entry-content a {

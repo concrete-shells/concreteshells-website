@@ -583,8 +583,11 @@ a.comment-reply-link:before {
 .entry-content {
 	font-size: 1em;
 	line-height: 1.538;
-	margin: 1.286em 0;
-	padding: 0;
+	/*margin: 1.286em 0;*/
+	/*padding: 0;*/
+
+	width: 80%;
+	margin: 0 auto;
 }
 .entry-content h1,
 .entry-content h2,
