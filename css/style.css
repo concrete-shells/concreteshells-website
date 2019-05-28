@@ -390,7 +390,6 @@ h3, #calendar_wrap caption {
 
 h4 {
     font-weight: normal;
-    font-size: 18px;
     margin-bottom: 12px;
 }
 
@@ -5282,4 +5281,13 @@ div.wpcf7-response-output {
 
 .hermes .tp-arr-titleholder {
     text-transform: uppercase;
+}
+.aligncenter {
+    max-width: 35%;
+    height: auto;
+}
+table, td, tr, th {
+    color: white;
+    border: hidden;
+    font-size: 1.05em;
 }
