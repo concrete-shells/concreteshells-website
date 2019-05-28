@@ -5295,7 +5295,7 @@ table, td, tr, th {
 /* Slideshow of Images, "Work in Progress" */
 .slideshow {
     margin: 0 auto;
-    height: 600px;
+    height: 300px;
     box-sizing: border-box;
     align-content: center;
     padding: 0px;
@@ -5304,7 +5304,7 @@ table, td, tr, th {
 .content {
     margin: auto;
     width: 200px;
-    perspective: 400px;
+    perspective: 1000px;
     position: relative;
     padding-top: 30px;
 }
