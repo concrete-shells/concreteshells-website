@@ -63,7 +63,6 @@ a:focus {
 a:active,
 a:hover {
     outline: 0;
-    box-shadow: 0 1px 30px #efefef;
 }
 
 a img {
@@ -5369,7 +5368,7 @@ table, td, tr, th {
     opacity: 0.85;
 }
 .shadow:hover {
-    box-shadow: 0 1px 30px #efefef;
+    /*box-shadow: 0 1px 30px #efefef;*/
     opacity: 1;
 }
 .content-carrousel img {
@@ -5379,8 +5378,9 @@ table, td, tr, th {
     height: 100%;
 }
 .content-carrousel img:hover {
-    transform: scale(1.2);
+    transform: scale(3,2);
     transition: all 3000ms;
+    box-shadow: 1px 1px 1px 1px 30px #efefef;
 }
 @keyframes rotar {
     from {
