@@ -5390,14 +5390,69 @@ table, td, tr, th {
         transform: rotateY(360deg);
     }
 }
+
+/* Who we Serve - Home Page */
+#wpc_5ce6f1783ccca h3 {
+    color: #333333;
+    display: block;
+    margin-top: 2px;
+    text-align: center;
+}
+#who-we-serve h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.wpb_text_column.wpb_content_element {
+    padding-bottom: 30px;
+}
 /* Center Buttons */
 .wpb_wrapper {
+    text-align: center;
+}
+h3 {
+    text-align: justify;
+}
+.heading-title {
+    padding-top: 1.3em;
+}
+h4 {
+    text-align: center;
+}
+/* Shell Options Section - Home Page*/
+#shell-options h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#shell-options h2 {
+    color: white;
+    text-align: center;
+}
+#shell-options h3 {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* Featured Works Section - Home Page */
+.vc_row.wpb_row.vc_row-fluid h1 {
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-weight: 700;
+} 
+#work-in-progress h3 {
+    color: white;
     text-align: center;
 }
 /* Fixing Mobile View */
 @media (max-width: 860px) {
     h1 {
         font-size: 32px !important;
+        font-weight: 700;
     }
     h2 {
         font-size: 24px !important;
