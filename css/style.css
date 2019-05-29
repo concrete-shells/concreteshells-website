@@ -5390,7 +5390,10 @@ table, td, tr, th {
         transform: rotateY(360deg);
     }
 }
-
+/* Center Buttons */
+.wpb_wrapper {
+    text-align: center;
+}
 /* Fixing Mobile View */
 @media (max-width: 860px) {
     h1 {
