@@ -63,6 +63,7 @@ a:focus {
 a:active,
 a:hover {
     outline: 0;
+    box-shadow: 0 1px 30px #efefef;
 }
 
 a img {
@@ -5328,9 +5329,10 @@ table, td, tr, th {
     cursor: pointer;
 }
 .content-carrousel figure {
-    width: 100%;
+    width: 1000%;
     height: 120px;
-    border: 1px solid #4d444d;
+    width: 200px;
+    border: transparent;
     overflow: hidden;
     position: absolute;
 }
@@ -5363,8 +5365,12 @@ table, td, tr, th {
 }
 .shadow {
     position: absolute;
-    box-shadow: 0px 0px 20px 0px #000;
-    border-radius: 2px;
+    box-shadow: none;
+    opacity: 0.85;
+}
+.shadow:hover {
+    box-shadow: 0 1px 30px #efefef;
+    opacity: 1;
 }
 .content-carrousel img {
     image-rendering: auto;
