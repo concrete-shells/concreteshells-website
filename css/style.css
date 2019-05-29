@@ -5304,7 +5304,7 @@ table, td, tr, th {
 .content {
     margin: auto;
     width: 200px;
-    perspective: 1000px;
+    perspective: 900px;
     position: relative;
     padding-top: 30px;
 }
