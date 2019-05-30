@@ -4046,96 +4046,6 @@ img.wp-smiley {
 /*------------------------------
 	8.3 VC General Shortcodes
 ------------------------------*/
-/* BUTTON
-------------------------------*/
-.btn {
-    background: #fab702;
-    display: inline-block;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 1;
-    text-align: center;
-    padding: 11px 18px 13px 18px;
-    margin: 3px 5px 3px 0px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 13px;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
-}
-
-.btn:hover {
-    color: #FFFFFF !important;
-    opacity: 0.9 !important;
-    text-decoration: none !important;
-}
-
-.btn-primary {
-    background: #fab702;
-    color: #000 !important;
-}
-
-.btn-secondary {
-    background: #00aeef;
-}
-
-.btn.btn-dark {
-    background: #000000;
-}
-
-.btn.btn-light {
-    background: #FFFFFF;
-    border: 1px solid #DDDDDD;
-    color: #888888;
-}
-
-.btn.btn-light:hover {
-    background: #ffffff !important;
-    color: #222222 !important;
-    border-color: #bbbbbb;
-}
-
-.btn.btn-ghost {
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    box-shadow: none !important;
-    color: #FFFFFF;
-}
-
-.btn.btn-ghost:hover {
-    background: #FFFFFF !important;
-    color: #000000 !important;
-    box-shadow: none !important;
-}
-
-.btn.btn-large {
-    padding: 17px 23px 19px 23px;
-    font-size: 15px;
-}
-
-.btn.btn-small {
-    padding: 7px 12px;
-    font-size: 12px;
-}
-
-.rev_slider_wrapper .btn {
-    opacity: 1 !important;
-}
-
-.rev_slider_wrapper .btn:hover {
-    opacity: 1 !important;
-}
-
-.rev_slider_wrapper .btn.btn-primary {
-    padding: 13px 18px 15px 18px;
-}
 
 /* ICON BOX
 ------------------------------*/
@@ -5475,7 +5385,7 @@ h4 {
     color:#000;
     text-shadow:none
 }
-.tp-caption.medium_light_white,.medium_light_white {
+/*.tp-caption.medium_light_white,.medium_light_white {
     font-size:40px;
     line-height:36px;
     font-weight:300;
@@ -5486,22 +5396,7 @@ h4 {
     border-width:0px;
     border-color:rgb(255,214,88);
     border-style:none
-}
-.tp-caption.Gym-SmallText,.Gym-SmallText {
-    color:rgba(255,255,255,1.00);
-    font-size:17px;
-    line-height:22px;
-    font-weight:300;
-    font-style:normal;
-    font-family:Raleway;
-    text-decoration:none;
-    background-color:transparent;
-    border-color:transparent;
-    border-style:none;
-    border-width:0px;
-    border-radius:0px 0px 0px 0px;
-    text-shadow:none
-}
+}*/
 /*.tp-caption.Fashion-BigDisplay,.Fashion-BigDisplay {
     color:rgba(0,0,0,1.00);
     font-size:60px;
@@ -5518,7 +5413,7 @@ h4 {
     letter-spacing:2px
 }*/
 .tp-caption.construction-slider-title,.construction-slider-title{
-    font-size:50px;
+    font-size: 300%;
     line-height:40px;
     font-weight:700;
     font-family:Raleway;
@@ -5535,12 +5430,126 @@ h4 {
 .tp-caption.construction-small-text,.construction-small-text{
     color:#ffffff;
     font-weight:400;
-    font-size:16px;
-    line-height:27px;
+    font-size: 150%;
+    line-height:22px;
     background-color:transparent;
     text-decoration:none;
     border-width:0px;
     border-color:rgb(255,255,255);
     border-style:none;
     white-space:nowrap
+}
+.tp-caption.Gym-SmallText,.Gym-SmallText {
+    color:rgba(255,255,255,1.00);
+    font-size: 150%;
+    line-height:22px;
+    font-weight:400;
+    font-style:normal;
+    font-family:Raleway;
+    text-decoration:none;
+    background-color:transparent;
+    border-color:transparent;
+    border-style:none;
+    border-width:0px;
+    border-radius:0px 0px 0px 0px;
+    text-shadow:none
+}
+
+/* BUTTON - Rev Slider
+------------------------------*/
+.btn {
+    display: inline-block;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    padding: 11px 18px 13px 18px;
+    margin: 3px 5px 3px 0px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+.btn:hover {
+    color: #FFFFFF !important;
+    opacity: 0.9 !important;
+    text-decoration: none !important;
+}
+.btn-primary {
+    color: black !important;
+}
+.btn-secondary {
+    background: #888888;
+}
+.btn.btn-dark {
+    background: #000000;
+}
+.btn.btn-light {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: #888888;
+}
+.btn.btn-light:hover {
+    background: #ffffff !important;
+    color: #222222 !important;
+    border-color: #bbbbbb;
+}
+.btn.btn-ghost {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    color: #FFFFFF;
+}
+.btn.btn-ghost:hover {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+
+/* Useless / Doesn't do anything*/
+/*.btn.btn-large {
+    padding: 17px 23px 19px 23px;
+    font-size: 20px;
+}
+.btn.btn-small {
+    padding: 7px 12px;
+    font-size: 12px;
+}*/
+.rev_slider_wrapper .btn {
+    opacity: 1 !important;
+}
+.rev_slider_wrapper .btn:hover {
+    opacity: 1 !important;
+}
+.rev_slider_wrapper .btn.btn-primary {
+    padding: 13px 18px 15px 18px;
+}
+
+@media (max-width: 860px) {
+    .tp-caption.construction-slider-title,.construction-slider-title{
+        font-size: 350%;
+    }
+    .tp-caption.construction-small-text,.construction-small-text {
+        font-size: 165%;
+        font-weight: 200;
+        letter-spacing: 0;
+    }
+    .tp-caption.Gym-SmallText,.Gym-SmallText {
+        font-size: 165%;
+        font-weight: 200;
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 680px) {
+    .rev_slider_wrapper .btn {
+        font-size: 110%;
+    }
 }
