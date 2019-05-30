@@ -2495,6 +2495,7 @@ img.wp-smiley {
     margin-bottom: 30px;
 }
 
+
 /* Entry author
 ------------------------------*/
 .entry-author {
@@ -5325,7 +5326,7 @@ h3 {
 .heading-title {
     padding-top: 1.3em;
 }
-h4 {
+#picDscrp h4 {
     text-align: center;
 }
 /* Shell Options Section - Home Page*/
@@ -5552,4 +5553,15 @@ h4 {
     .rev_slider_wrapper .btn {
         font-size: 110%;
     }
+}
+p {
+    text-align: justify;
+    color: black;
+}
+.tab-content {
+    color: #dedede;
+    padding-bottom: 20px;
+}
+.tab-content p {
+    color: #dedede;
 }
