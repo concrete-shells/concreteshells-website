@@ -5533,27 +5533,6 @@ h3 {
 .rev_slider_wrapper .btn.btn-primary {
     padding: 13px 18px 15px 18px;
 }
-
-@media (max-width: 860px) {
-    .tp-caption.construction-slider-title,.construction-slider-title{
-        font-size: 350%;
-    }
-    .tp-caption.construction-small-text,.construction-small-text {
-        font-size: 165%;
-        font-weight: 200;
-        letter-spacing: 0;
-    }
-    .tp-caption.Gym-SmallText,.Gym-SmallText {
-        font-size: 165%;
-        font-weight: 200;
-        letter-spacing: 0;
-    }
-}
-@media (max-width: 680px) {
-    .rev_slider_wrapper .btn {
-        font-size: 110%;
-    }
-}
 p {
     text-align: justify;
     color: black;
