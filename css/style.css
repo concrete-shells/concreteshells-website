@@ -5547,3 +5547,170 @@ h3 {
 h4 {
     text-align: center;
 }
+
+
+/* BLOG POST STUFF / NEW NAVIGATION */
+/* Post Slider */
+/* .post-slider {
+    position: relative;
+}
+.post-slider .post-wrapper {
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+.post-slider .post-wrapper .post {
+    height: 350px;
+    width: 330px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: #00aeef;
+    border-radius: 5px;
+}
+.post-slider .post-wrapper .post .post-info {
+    height: 130px;
+    padding: 0px 5px;
+}
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.post-slider .slider-title {
+    text-align: center;
+    margin: 30px auto;
+    color: black;
+}
+.post-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: black;
+    cursor: pointer;
+}
+.post-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: black;
+    cursor: pointer;
+}
+.page-wrapper a:hover {
+    color: #006669;
+} */
+/* Blog Content */ /*.content causes things to go weird*/
+/* .content {
+    width: 90%;
+    margin: 30px auto 30px;
+}
+.content .main-content {
+    width: 70%;
+    float: left;
+}
+.content .main-content .post {
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: lightblue;
+    position: relative;
+}
+.content .main-content .post .read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #006669;
+    background: transparent;
+    border-radius: 0px;
+    color: #006669 !important;
+}
+.content .main-content .post .read-more:hover {
+    background: #006669;
+    color: white !important;
+    transition: 0.25s;
+}
+.content .main-content .post .post-image {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.content .main-content .post .post-preview {
+    width: 60%;
+    padding: 10px;
+    float: right;
+}
+.content .main-content .recent-post-title {
+    margin: 20px;
+}
+.content.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.btn:hover {
+    color: white !important;
+    background: #005255;
+} */
+/* Sidebar */
+/* .content .sidebar {
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+.content .sidebar .section {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.content .sidebar .section .section-title {
+    margin: 10px 0px 10px 0px;
+}
+.content .sidebar .section.search {
+    margin-top: 80px;
+}
+.content .sidebar .section.topics ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #e0e0e0;
+}
+.content .sidebar .section.topics ul li a {
+    display: block;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s;
+}
+.content .sidebar .section.topics ul li a:hover {
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+.text-input {
+    padding: 0.7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    font-size: 1.2em;
+    line-height: 1.5rem;
+}
+.site {
+    background-image: url(/images/concrete-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+} */
