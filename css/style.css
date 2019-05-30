@@ -5316,19 +5316,6 @@ table, td, tr, th {
 .wpb_text_column.wpb_content_element {
     padding-bottom: 30px;
 }
-/* Center Buttons */
-.wpb_wrapper {
-    text-align: center;
-}
-h3 {
-    text-align: justify;
-}
-.heading-title {
-    padding-top: 1.3em;
-}
-#picDscrp h4 {
-    text-align: center;
-}
 /* Shell Options Section - Home Page*/
 #shell-options h1{
     color: white;
@@ -5543,4 +5530,20 @@ p {
 }
 .tab-content p {
     color: #dedede;
+}
+/* Center Buttons */
+.wpb_wrapper {
+    text-align: center !important;
+}
+h3 {
+    text-align: justify;
+}
+.heading-title {
+    padding-top: 1.3em;
+}
+#picDscrp h4 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
 }
