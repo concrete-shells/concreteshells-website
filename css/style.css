@@ -5617,11 +5617,11 @@ h4 {
     font-size: 18px;
     transition: 1s;
 }
-.site {
+/* .site {
     background-image: url(/images/concrete-back.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
-}
+} */
 .post a {
     color: white;
     font-family: 'Lora', serif;
