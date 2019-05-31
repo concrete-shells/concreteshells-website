@@ -5565,7 +5565,7 @@ h4 {
     width: 330px;
     margin: 0px 10px;
     display: inline-block;
-    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), #fff; 
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), #fff; 
     background-size: cover; 
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -5625,7 +5625,11 @@ h4 {
 .post a {
     color: white;
     font-family: 'Lora', serif;
-    font-weight: 700; 
+    font-weight: 700;
+    font-size: 16px; 
+}
+.post h4 {
+    text-align: left;
 }
  /* Media Quaries for Blog Page Post Slider*/
  @media (max-width: 590px) {
@@ -5762,7 +5766,7 @@ h4 {
     letter-spacing: none !important;
 }
 /* Media Query for Blog Content */
-@media (max-width: 1012px) {
+@media (max-width: 1080px) {
     .post-preview a {
         font-size: 20px;
     }
@@ -5789,7 +5793,7 @@ h4 {
         font-size: 14px !important;
     }
 }
-@media (max-width: 782px) {
+@media (max-width: 802px) {
     .post-preview a {
         font-size: 14px;
     }
@@ -5904,7 +5908,7 @@ h4 {
     font-size: 1.8em !important;
 }
 /* Media Query, Hide Sidebar when screen small*/
-@media (max-width: 781px) {
+@media (max-width: 795px) {
     .blog-content .sidebar {
         display: none;
     }
