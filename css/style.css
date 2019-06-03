@@ -393,8 +393,9 @@ h3 {
     font-size: 20px;
 }
 h4 {
-    font-weight: normal;
+    font-weight: 700;
     margin-bottom: 12px;
+    font-size: 20px;
 }
 
 h5 {
@@ -5633,6 +5634,11 @@ h4 {
     font-weight: 700;
     font-size: 16px; 
 }
+.post a:hover {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.3s;
+}
 .post h4 {
     text-align: left;
 }
@@ -5862,7 +5868,7 @@ h4 {
     height: fill;
 }
 .blog-content .sidebar .section {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), transparent;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -5908,7 +5914,7 @@ h4 {
     font-family: 'Lora', serif;
 }
 .section.topics ul li a:hover {
-    padding-left: 60px !important;
+    padding-left: 10px !important;
     transition: all 0.5s;
     font-size: 1.8em !important;
 }
@@ -5917,4 +5923,68 @@ h4 {
     .blog-content .sidebar {
         display: none;
     }
+    .blog-content .sidebar.single {
+        display: initial;
+    }
+}
+
+/* Blog Post Styling */
+.blog-content .main-content.single {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), transparent;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.blog-content .sidebar.single {
+    padding-left: 10px;
+}
+.blog-content .sidebar.single .section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), transparent;
+}
+.blog-content .main-content.single .post-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    font-size: 3em;
+}
+.blog-content .main-content.single .post-content p {
+    color: white;
+    letter-spacing: none;
+    word-spacing: none;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+.blog-content .popular .post {
+    border-top: 1px solid #fff;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.blog-content .sidebar .section.topics ul li a {
+    font-size: 1.2em;
+}
+.sidebar.single .post a {
+    font-size: 1.35em;
+}
+.sidebar.single .post a:hover {
+    font-size: 1.4em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 1px black;
+}
+/* Media Query, Blog Posts */
+@media (max-width: 565px) {
+    .blog-content .main-content {
+        width: 100%;
+        float: left;
+    }
+    .blog-content .sidebar {
+        width: 100%;
+        float: left;
+        height: fill;
+    }
+}
+* {
+    word-spacing: none !important;
 }
