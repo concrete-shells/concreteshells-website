@@ -5988,3 +5988,30 @@ h4 {
 * {
     word-spacing: none !important;
 }
+
+/* Contact Form CSS */
+label, input, textarea {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+button.submit {
+    background-color: #CCC;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+button.submit:hover {
+    background-color: rgb(236, 234, 234);
+    text-shadow: 1px 1px 1px white;
+    font-size: 16px;
+}
