@@ -5860,7 +5860,6 @@ h4 {
         font-size: 10px !important;
     }
 }
-
 /* Sidebar */
 .blog-content .sidebar {
     width: 30%;
@@ -6015,3 +6014,329 @@ button.submit:hover {
     text-shadow: 1px 1px 1px white;
     font-size: 16px;
 }
+/* Navigation Bar */
+header1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+header1 .logo {
+    color: #fff;
+    height: 60px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header1 nav {
+    float: right;
+}
+/* header1 nav h3 {
+    padding-top: 10px;
+    text-align: right;
+}
+header1 nav h3 a {
+    font-size: 14px;
+    color: white;
+} */
+header1 nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header1 nav ul li {
+    list-style: none;
+}
+header1 nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+header1 nav ul li a.active, header1 nav ul li a:hover {
+    color: black;
+    background: white;
+    transition: 0.5s;
+    box-shadow: 0 1px 10px #efefef;
+}
+.menu-toggle {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1287px) {
+    header1 {
+        padding: 0 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header1 nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), transparent;
+        top: 50px;
+        left: -100%;
+        transition: 0.75s;
+    }
+    header1 nav.active {
+        left: 0;
+    }
+    header1 nav ul {
+        display: block;
+        text-align: center;
+    }
+}
+/* Footer */
+.clr {
+    clear: both;
+}
+.footer-wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin: auto;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/images/footbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+/* .footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px; 
+    margin-bottom: 40px;
+}
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li {
+    display: inline-block;
+    margin-right: 2px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+.footer-social-icons ul li a {
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+}
+.footer-social-icons ul li:hover, .footer-social-icons ul li a:hover {
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    transition: 0.1s;
+}
+.footer-social-icons ul li a i {
+    line-height: 36px;
+}
+.footer-social-icons ul li:nth-child(1) {
+    background: #3b5998;
+}
+.footer-social-icons ul li:nth-child(2) {
+    background: #1da1f2;
+}
+.footer-social-icons ul li:nth-child(3) {
+    background: #25d366;
+}
+.footer-social-icons ul li:nth-child(4) {
+    background: #c32aa3;
+}
+.footer-social-icons ul li:nth-child(5) {
+    background: #007bb5;
+}
+.footer-social-icons ul li:nth-child(6) {
+    background: #ff0000;
+}
+.footer-social-icons ul li:nth-child(7) {
+    background: #db4437;
+}
+.footer-social-icons ul li:nth-child(8) {
+    background: #00aff0;
+}
+.footer-social-icons ul li:nth-child(9) {
+    background: #09b83e;
+}
+.footer-social-icons ul li:nth-child(10) {
+    background: #bd081c;
+} */
+.footer-mid-part {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-section-one {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, .1);
+}
+.footer-section-two {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 20px;
+}
+.footer-section-three {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, .1);
+}
+.footer-heading {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-heading h2 {
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.footer-contact-box {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 13px;
+}
+.footer-contact-icon {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.footer-contact-icon i {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-contact-text {
+    width: 85%;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+.footer-contact-text p {
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+}
+.footer-contact-text p a {
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-contact-text p:hover {
+    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+.footer-contact-box:hover .footer-contact-icon i {
+    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+.footer-contact-text p:hover a {
+    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+.footer-link {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-link ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-link ul li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5px;
+}
+.footer-link ul li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.footer-link ul li a:hover {
+    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+.footer-section-two .footer-heading h2 {
+    text-align: center;
+}
+.footer-bottom {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-bottom p {
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Footer Contact Form CSS */
+.footer-section-three label, input, textarea {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.footer-section-three button.submit {
+    background-color: #CCC;
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footer-section-three button.submit:hover {
+    background-color: rgb(236, 234, 234);
+    text-shadow: 1px 1px 1px white;
+    font-size: 11px;
+}
+

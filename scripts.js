@@ -1,6 +1,13 @@
 console.log("It works");
 
 $(document).ready(function() {
+    //NavBar
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('nav').toggleClass('active')
+        });
+    });
+
     //Contact Form
     $('.submit').click(function(event) {
         console.log('Clicked Button')
