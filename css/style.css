@@ -6168,7 +6168,7 @@ header1 nav ul li a:hover {
     font-size: 30px;
     width: 45px;
     height: 45px;
-    transition: 0.1s;
+    transition: 0.8s;
 }
 .footer-social-icons ul li a i {
     line-height: 36px;
@@ -6176,6 +6176,13 @@ header1 nav ul li a:hover {
 .footer-social-icons ul li:nth-child(1) {
     background: #3b5998;
 }
+.footer-social-icons ul li:nth-child(2) {
+    background: #007bb5;
+}
+.footer-social-icons ul li:nth-child(3) {
+    background: #ff0000;
+}
+/*
 .footer-social-icons ul li:nth-child(2) {
     background: #1da1f2;
 }
@@ -6202,7 +6209,7 @@ header1 nav ul li a:hover {
 }
 .footer-social-icons ul li:nth-child(10) {
     background: #bd081c;
-}
+}*/
 .footer-mid-part {
     padding-top: 100px;
     width: 100%;
@@ -6349,7 +6356,7 @@ header1 nav ul li a:hover {
 }
 .footer-section-three button.submit {
     background-color: #CCC;
-    color: black;
+    color: white;
     font-size: 10px;
     font-weight: 700;
     cursor: pointer;
@@ -6362,5 +6369,8 @@ header1 nav ul li a:hover {
     background-color: rgb(236, 234, 234);
     text-shadow: 1px 1px 1px white;
     font-size: 11px;
+    color: white;
 }
-
+textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    color: white;
+}
