@@ -5942,7 +5942,7 @@ h4 {
 }
 .blog-content .main-content.single .post-title {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: white;
     text-shadow: 2px 2px 2px black;
     font-family: 'Lora', serif;
@@ -5955,6 +5955,19 @@ h4 {
     word-spacing: none;
     font-family: 'Lora', serif;
     font-size: 1em;
+}
+.blog-content .main-content.single .post-content img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.blog-content .main-content.single h2 {
+    color: white;
+    letter-spacing: none;
+    word-spacing: none;
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    text-align: center;
 }
 .blog-content .popular .post {
     border-top: 1px solid #fff;
@@ -6281,21 +6294,33 @@ header1 nav ul li a:hover {
     text-decoration: none;
 }
 .footer-contact-text p:hover {
-    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: white; /* For browsers that do not support gradients */
+    font-size: 16px;
+    text-shadow: 0 1px 10px #efefef;
+    transition: 0.3s;
+    font-weight: 900;
     color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
     color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
     color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
 .footer-contact-box:hover .footer-contact-icon i {
-    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: white; /* For browsers that do not support gradients */
+    font-size: 16px;
+    text-shadow: 0 1px 10px #efefef;
+    transition: 0.3s;
+    font-weight: 900;
     color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
     color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
     color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
 .footer-contact-text p:hover a {
-    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: white; /* For browsers that do not support gradients */
+    font-size: 16px;
+    text-shadow: 0 1px 10px #efefef;
+    transition: 0.3s;
+    font-weight: 900;
     color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
     color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
@@ -6322,7 +6347,11 @@ header1 nav ul li a:hover {
     text-decoration: none;
 }
 .footer-link ul li a:hover {
-    color: rgb(0, 225, 255); /* For browsers that do not support gradients */
+    color: white; /* For browsers that do not support gradients */
+    font-size: 16px;
+    text-shadow: 0 1px 10px #efefef;
+    transition: 0.3s;
+    font-weight: 900;
     color: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     color: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
     color: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
@@ -6373,4 +6402,37 @@ header1 nav ul li a:hover {
 }
 textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
     color: white;
+}
+/* Blog Content Video*/
+iframe {
+    width: 100%;
+    height: 615px;
+}
+@media (max-width: 980px) {
+    iframe {
+        height: 400px;
+    }
+    .blog-content .main-content.single h2 {
+        font-size: 1em !important;
+    }
+}
+@media (max-width: 700px) {
+    iframe {
+        height: 300px;
+    }
+    .blog-content .main-content.single h2 {
+        font-size: 0.75em !important;
+    }
+    .blog-content .main-content.single p {
+        font-size: 0.7em !important;
+    }
+}
+@media (max-width: 400px) {
+    iframe {
+        height: 150px;
+    }
+    .blog-content .main-content.single h2 {
+        font-size: 0.55em !important;
+    }
+
 }
