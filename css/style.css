@@ -5777,7 +5777,7 @@ h4 {
     letter-spacing: none !important;
 }
 /* Media Query for Blog Content */
-@media (max-width: 1080px) {
+@media (max-width: 1450px) {
     .post-preview a {
         font-size: 20px;
     }
@@ -5954,7 +5954,14 @@ h4 {
     letter-spacing: none;
     word-spacing: none;
     font-family: 'Lora', serif;
-    font-size: 1em;
+    font-size: 1.1em;
+}
+.blog-content .main-content.single .post-content a {
+    color: white;
+    text-decoration: underline;
+}
+.blog-content .main-content.single .post-content a:hover {
+    font-size: 1.3em;
 }
 .blog-content .main-content.single .post-content img {
     width: 100%;
@@ -5968,6 +5975,13 @@ h4 {
     font-family: 'Lora', serif;
     font-size: 1.3em;
     text-align: center;
+}
+.blog-content .main-content.single ul li {
+    color: white;
+    letter-spacing: none;
+    word-spacing: none;
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
 }
 .blog-content .popular .post {
     border-top: 1px solid #fff;
