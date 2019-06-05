@@ -6248,7 +6248,7 @@ header1 nav ul li a:hover {
     height: auto;
     margin: auto;
     padding: 20px 20px;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .5);
 }
 .footer-section-two {
     width: 100%;
@@ -6261,7 +6261,7 @@ header1 nav ul li a:hover {
     height: auto;
     margin: auto;
     padding: 20px 20px;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .5);
 }
 .footer-heading {
     width: 100%;
@@ -6272,6 +6272,13 @@ header1 nav ul li a:hover {
     font-size: 18px;
     text-align: left;
     color: #fff;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.footer-heading h3 {
+    font-size: 18px;
+    text-align: left;
+    color: #000;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -6387,13 +6394,11 @@ header1 nav ul li a:hover {
     text-align: center;
     color: #fff;
 }
-
 /* Footer Contact Form CSS */
 .footer-section-three label, input, textarea {
     display: block;
     text-align: left;
     width: 100%;
-    color: white;
     font-size: 12px;
     padding-bottom: 2px;
 }
@@ -6412,9 +6417,6 @@ header1 nav ul li a:hover {
     background-color: rgb(236, 234, 234);
     text-shadow: 1px 1px 1px white;
     font-size: 11px;
-    color: white;
-}
-textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
     color: white;
 }
 /* Blog Content Video*/
@@ -6450,3 +6452,58 @@ iframe {
     }
 
 }
+
+/* Popup/Modal 
+
+.popup-button {
+    background-color: #ccc;
+    width: auto;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+.popup-button:hover {
+    box-shadow: 0 1px 10px #efefef;
+}
+
+.popup-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+.popup-modal-content {
+    align-content: center;
+    width: 800px;
+    height: 700px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+input {
+    display: block;
+    margin: 10px auto;
+}
+.popup-close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    color: black;
+    cursor: pointer;
+}
+.popup-modal .popup-modal-content textarea {
+    height: 120px;
+} */

@@ -7,7 +7,6 @@ $(document).ready(function() {
             $('nav').toggleClass('active')
         });
     });
-
     //Contact Form
     $('.submit').click(function(event) {
         console.log('Clicked Button')
@@ -46,7 +45,6 @@ $(document).ready(function() {
             statusElm.append('<div>Message is not valid. Should be 5 characters or longer.</div>')
         }
     });
-
     //Blog Slick Carousel
     $('.post-wrapper').slick({
         slidesToShow: 3,
@@ -58,3 +56,11 @@ $(document).ready(function() {
     });
 });
 
+document.getElementById('popup-button').addEventListener('click',
+function() {
+    document.querySelector('.popup-modal').style.display ='flex';
+});
+document.querySelector('.popup-close').addEventListener('click', 
+function() {
+    document.querySelector('.popup-modal').style.display = 'none';
+});
