@@ -56,11 +56,11 @@ $(document).ready(function() {
     });
 });
 
-document.getElementById('popup-button').addEventListener('click',
+/* document.getElementById('popup-button').addEventListener('click',
 function() {
     document.querySelector('.popup-modal').style.display ='flex';
 });
 document.querySelector('.popup-close').addEventListener('click', 
 function() {
     document.querySelector('.popup-modal').style.display = 'none';
-});
+}); */
