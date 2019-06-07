@@ -5632,10 +5632,10 @@ h4 {
     color: white;
     font-family: 'Lora', serif;
     font-weight: 700;
-    font-size: 16px; 
+    font-size: 24px; 
 }
 .post a:hover {
-    font-size: 18px;
+    font-size: 26px;
     text-shadow: 1px 1px 1px black;
     transition: 0.3s;
 }
@@ -5643,11 +5643,14 @@ h4 {
     text-align: left;
 }
  /* Media Quaries for Blog Page Post Slider*/
- @media (max-width: 590px) {
+ @media (max-width: 950px) {
     .post a {
-        font-size: 12px;
+        font-size: 0.7em;
         text-align: justify;
         padding: 0;
+    }
+    .post i {
+        font-size: 0.8em;
     }
     .post-slider .post-wrapper .post .post-info {
         height: 100%;
@@ -5804,7 +5807,7 @@ h4 {
         font-size: 14px !important;
     }
 }
-@media (max-width: 802px) {
+@media (max-width: 1210px) {
     .post-preview a {
         font-size: 14px;
     }
@@ -5831,13 +5834,25 @@ h4 {
     .post .post-preview .btn.read-more:hover {
         font-size: 10px !important;
     }
+    .blog-content .sidebar {
+        display: none;
+    }
+    .blog-content .sidebar.single {
+        display: initial;
+    }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
+    .post a, .post a:hover {
+        font-size: 0.5em;
+    }
+    .post i {
+        font-size: 0.6em;
+    }
     .post-preview a {
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
     .post-preview a:hover {
-        font-size: 13px !important;
+        font-size: 11px !important;
     }
     .blog-content .main-content .post {
         width: 145%;
@@ -6000,15 +6015,9 @@ h4 {
     text-shadow: 1px 1px 1px black;
 }
 /* Media Query, Blog Posts */
-@media (max-width: 565px) {
-    .blog-content .main-content {
-        width: 100%;
-        float: left;
-    }
-    .blog-content .sidebar {
-        width: 100%;
-        float: left;
-        height: fill;
+@media (max-width: 613px) {
+    .blog-content {
+        display: none;
     }
 }
 * {
@@ -6042,7 +6051,7 @@ button.submit:hover {
     font-size: 16px;
 }
 /* Navigation Bar */
-header1 {
+/* header1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -6102,12 +6111,12 @@ header1 nav ul li a {
     text-decoration: none;
     display: block;
 }
-/* header1 nav ul li a.active {
+header1 nav ul li a.active {
     color: black;
     background: white;
     transition: 0.5s;
     box-shadow: 0 1px 10px #efefef;
-} */
+}
 header1 nav ul li a:hover {
     color: black;
     background: white;
@@ -6121,7 +6130,7 @@ header1 nav ul li a:hover {
     font-size: 24px;
     cursor: pointer;
     display: none;
-}
+} */
 @media (max-width: 1287px) {
     header1 {
         padding: 0 20px;
