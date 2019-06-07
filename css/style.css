@@ -5553,7 +5553,10 @@ h3 {
 h4 {
     text-align: center;
 }
-
+.wpb_wrapper img:hover {
+    border: 2px solid black;
+    transition: 0.5s all;
+}
 /* BLOG POST STUFF / NEW NAVIGATION */
 /* Post Slider */
 .post-slider {
@@ -6527,7 +6530,7 @@ input {
     height: 120px;
 } */
 
-.pop-up-button {
+/* .pop-up-button {
     background-color: #ccc;
     padding: 12px 16px;
     display: inline-block;
@@ -6544,5 +6547,10 @@ input {
 .pop-up-button a, #pop-up-button {
     color: black;
     text-decoration: none;
-}
+} */
 /* Modal */
+
+/* Remove the little wordpress thing at bottom right corner*/
+#bitnami-banner {
+    display: none;
+}
