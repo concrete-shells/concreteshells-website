@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tests</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,7 @@
         text-transform: uppercase;
         font-weight: 600;
     }
-    button:hover {
+    .modal-Btn:hover {
         opacity: 0.8;
     }
     .imgcontainer {
@@ -27,7 +28,7 @@
         margin: 24px 0 12px 0;
         position: relative;
     }
-    .container {
+    .modal-container {
         padding: 16px;
     }
     .modal {
@@ -72,11 +73,16 @@
             transform: scale(1)
         }
     }
-    @media (max-width: 855px) {
+    @media screen and (max-width: 855px) {
         .modal-content {
-            width: 80%;
+            width: 85%;
+            margin: 2% auto 2% auto;
+        }
+        .modal-close {
+            font-size: 24px;
         }
     }
+    
 </style>
 <body>
     <h2>Modal Test</h2>
@@ -102,34 +108,34 @@
                 </span>
                 <img src="/images/Quote-Logo.jpg" alt="avatar" class="avatar"/>
             </div>
-            <div class="container">
+            <div class="modal-container">
                     <label> 
                         Name 
-                        <input type="text" placeholder="Enter Name (Required)" name="name" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="text" placeholder="Enter Name (Required)" name="name" class="name" required/>
                     </label>
                     <label> 
                         E-mail 
-                        <input type="email" placeholder="Enter Email (Required)" name="email" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="email" placeholder="Enter Email (Required)" name="email" class="email" required/>
                     </label>
                     <label> 
                         Phone Number 
-                        <input type="tel" placeholder="(###) ####-####" name="phonenumber" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="tel" placeholder="(###) ####-####" name="phonenumber" class="phonenumber" required/>
                     </label>
                     <label>
                         Subject
-                        <input type="text" placeholder="Subject/Topic" name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="text" placeholder="Subject/Topic" name="subject" class="subject" required/>
                     </label>
                     <label>
                         Business Relationship/Interest
-                        <input type="text" placeholder="Are you a Property Owner, Builder, Architect, ..." name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="text" placeholder="Are you a Property Owner, Builder, Architect, ..." name="relation" class="relation" required/>
                     </label>
                     <label> 
                         Site Location 
-                        <input type="text" placeholder="(City/Address)" name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                        <input type="text" placeholder="(City/Address)" name="site" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
                     </label>
                     <label> 
                         Message 
-                        <textarea name="message" class="form-control" rows="5" placeholder="Enter Message"></textarea>
+                        <textarea name="message" class="message" rows="5" placeholder="Enter Message"></textarea>
                     </label>
 
                 <div class="status"></div>
@@ -137,50 +143,6 @@
             </div>
         </form>
     </div>
-
-
-
-    
-    
-        <table width="100%">
-          <tr>
-            <td>
-                <label for="firstName">First Name:</label>
-                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please Enter your First Name" ng-model="firstName" required/>
-            </td>
-            <td>
-                <label for="lastName">Last Name:</label>
-                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please Enter your Last Name" ng-model="lastName" required/>
-            </td>
-          </tr>
-          
-          
-            <td>
-                <label for="email">Email ID:</label>
-                <input type="email" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Email ID" ng-model="email" required/>
-            </td>
-            <td>
-                <label for="place">Country:</label>
-                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Country" ng-model="place" required/>
-            </td>
-          
-          <tr>
-            <td>
-                <label for="company">Company:</label>
-                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Comapany Name" ng-model="company" required/>
-            </td>
-            <td>
-                <label for="profession">Profession:</label>
-                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Profession" ng-model="profession" required/>
-            </td>
-          </tr>
-    
-          
-        </table>
-        
-        
-        </div>
-
 
 
 

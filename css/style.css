@@ -6414,7 +6414,7 @@ header1 nav ul li a:hover {
     color: #fff;
 }
 /* Footer Contact Form CSS */
-.footer-section-three label, input, textarea {
+.footer-section-three label,.footer-section-three input,.footer-section-three textarea {
     display: block;
     text-align: left;
     width: 100%;
@@ -6474,83 +6474,97 @@ iframe {
     }
 
 }
-
-/* Popup/Modal 
-
-.popup-button {
-    background-color: #ccc;
-    width: auto;
-	text-decoration: none;
-	padding: 10px 28px;
-	color: white;
-	margin-top: 20px;
-    display: inline-block;
-    font-size: 16px;
-}
-.popup-button:hover {
-    box-shadow: 0 1px 10px #efefef;
-}
-
-.popup-modal {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    display: none;
-}
-.popup-modal-content {
-    align-content: center;
-    width: 800px;
-    height: 700px;
-    background-color: white;
-    opacity: 1;
-    border-radius: 4px;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
-input {
-    display: block;
-    margin: 10px auto;
-}
-.popup-close {
-    position: absolute;
-    top: 0;
-    right: 14px;
-    font-size: 42px;
-    transform: rotate(45deg);
-    color: black;
-    cursor: pointer;
-}
-.popup-modal .popup-modal-content textarea {
-    height: 120px;
-} */
-
-/* .pop-up-button {
-    background-color: #ccc;
-    padding: 12px 16px;
-    display: inline-block;
-    outline: 0;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), inset 0px 2px 0px rgba(255, 255, 255, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    border: none;
-    font-family: "Gudea";
-    font-size: 0.938em;
-    font-weight: 600;
-    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
-    line-height: 100%;
-}
-.pop-up-button a, #pop-up-button {
-    color: black;
-    text-decoration: none;
-} */
 /* Modal */
 
 /* Remove the little wordpress thing at bottom right corner*/
 #bitnami-banner {
     display: none;
+}
+/* Modal Popup Button */
+.modal-Btn {
+    background-color: #CCC;
+    color: #000;
+    padding: 10px 16px;
+    margin: 3px 5px 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.modal-Btn-startBid {
+    background-color: #CCC;
+    color: #000;
+    padding: 10px 16px;
+    margin: 3px 5px 0px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.modal-Btn:hover, .modal-Btn-startBid:hover {
+    color: white;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.modal-container {
+    padding: 16px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto;
+    border: 1px solid #888;
+    width: 50%;
+}
+.modal-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #CCC;
+    font-size: 35px;
+    font-weight: bold;
+}
+.modal-close:hover, .modal-close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Modal Popup Aniamted to zoom in */
+.animate {
+    animation: animatezoom 0.6s;
+}
+@keyframes animatezoom {
+    from {
+        transform:scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+@media screen and (max-width: 855px) {
+    .modal-content {
+        width: 85%;
+        margin: 2% auto 2% auto;
+    }
+    .modal-close {
+        font-size: 24px;
+    }
 }

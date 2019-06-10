@@ -12,7 +12,9 @@ $(document).ready(function() {
         console.log('Clicked Button')
         var name = $('.name').val()
         var email = $('.email').val()
+        var phone = $('.phonenumber').val()
         var subject = $('.subject').val()
+        var relation = $('.relation').val()
         var message = $('.message').val()
         var statusElm = $('.status')
         statusElm.empty()
@@ -55,12 +57,3 @@ $(document).ready(function() {
         prevArrow: $('.prev'),
     });
 });
-
-/* document.getElementById('popup-button').addEventListener('click',
-function() {
-    document.querySelector('.popup-modal').style.display ='flex';
-});
-document.querySelector('.popup-close').addEventListener('click', 
-function() {
-    document.querySelector('.popup-modal').style.display = 'none';
-}); */
