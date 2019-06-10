@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tests</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    .modal-Btn {
+        background-color: #CCC;
+        color: #000;
+        padding: 10px 16px;
+        margin: 3px 5px 0px 0px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    button:hover {
+        opacity: 0.8;
+    }
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+    .container {
+        padding: 16px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 0.5% auto 0.5% auto;
+        border: 1px solid #888;
+        width: 50%;
+    }
+    .modal-close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #CCC;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .modal-close:hover, .modal-close:focus {
+        color: red;
+        cursor: pointer;
+    }
+    /* Modal Popup Aniamted to zoom in */
+    .animate {
+        animation: animatezoom 0.6s;
+    }
+    @keyframes animatezoom {
+        from {
+            transform:scale(0)
+        }
+        to {
+            transform: scale(1)
+        }
+    }
+    @media (max-width: 855px) {
+        .modal-content {
+            width: 80%;
+        }
+    }
+</style>
+<body>
+    <h2>Modal Test</h2>
+    <!--Modal Button-->
+    <button 
+        class="modal-Btn"
+        onclick="document.getElementById('id01').style.display='block'" 
+        style="width: auto;"
+        
+    >
+        Get a Quote
+    </button>
+
+    <!-- Modal that Pops up-->
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="https://formspree.io/jefferson@sollarsconstruction.com" method="POST">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="modal-close" 
+                title="modal-close"
+                >
+                    &times;
+                </span>
+                <img src="/images/Quote-Logo.jpg" alt="avatar" class="avatar"/>
+            </div>
+            <div class="container">
+                    <label> 
+                        Name 
+                        <input type="text" placeholder="Enter Name (Required)" name="name" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label> 
+                        E-mail 
+                        <input type="email" placeholder="Enter Email (Required)" name="email" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label> 
+                        Phone Number 
+                        <input type="tel" placeholder="(###) ####-####" name="phonenumber" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" placeholder="Subject/Topic" name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label>
+                        Business Relationship/Interest
+                        <input type="text" placeholder="Are you a Property Owner, Builder, Architect, ..." name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label> 
+                        Site Location 
+                        <input type="text" placeholder="(City/Address)" name="subject" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" required/>
+                    </label>
+                    <label> 
+                        Message 
+                        <textarea name="message" class="form-control" rows="5" placeholder="Enter Message"></textarea>
+                    </label>
+
+                <div class="status"></div>
+                <button type="submit" class="modal-Btn">Send</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    
+    
+        <table width="100%">
+          <tr>
+            <td>
+                <label for="firstName">First Name:</label>
+                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please Enter your First Name" ng-model="firstName" required/>
+            </td>
+            <td>
+                <label for="lastName">Last Name:</label>
+                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please Enter your Last Name" ng-model="lastName" required/>
+            </td>
+          </tr>
+          
+          
+            <td>
+                <label for="email">Email ID:</label>
+                <input type="email" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Email ID" ng-model="email" required/>
+            </td>
+            <td>
+                <label for="place">Country:</label>
+                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Country" ng-model="place" required/>
+            </td>
+          
+          <tr>
+            <td>
+                <label for="company">Company:</label>
+                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Comapany Name" ng-model="company" required/>
+            </td>
+            <td>
+                <label for="profession">Profession:</label>
+                <input type="text" class="form-control col-lg-3 col-md-3 col-sm-3 col-xs-3" placeholder="Please enter your Profession" ng-model="profession" required/>
+            </td>
+          </tr>
+    
+          
+        </table>
+        
+        
+        </div>
+
+
+
+
+    <script>
+        /*Click off Modal closes Modal*/
+        var modal = document.getElementById('id01');
+        window.onclick=function(event) {
+            if(event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>                 
+                           
